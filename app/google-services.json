@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "812924831279",
+    "project_id": "vibrant-beanbag-315012",
+    "storage_bucket": "vibrant-beanbag-315012.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:812924831279:android:6d10204c64273930a628da",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "812924831279-frottt90sc5nc44akp2bb2f81m8r8jh0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD16myIPYPUG3jemP6MZ6F3XLOxGN5x9aI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "812924831279-frottt90sc5nc44akp2bb2f81m8r8jh0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

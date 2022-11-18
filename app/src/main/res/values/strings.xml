@@ -1,0 +1,121 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="title_activity_dashboard_page">Dashboard_page</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="no_cardetails">Click on the button below to begin creating your reminder!</string>
+    <string name="title_activity_add_reminder">Add Reminder</string>
+    <string name="title_activity_edit_reminder">Edit Reminder</string>
+    <string name="title_activity_licenses">Licenses</string>
+    <string name="libraries_we_use_text">The following sets forth attribution notices for third party software that may be contained in portions in the School Minder android application. We are grateful for the contrubution of the open source community.</string>
+    <string name="recyclerviewanimators_license">Copyright 2015 Wasabeef.\n\nLicensed under the Apache License, Version 2.0 (the "License");\n\nyou may not use this file except in compliance with the License.\n\nYou may obtain a copy of the License at\n\nhttp://www.apache.org/licenses/LICENSE-2.0\n\nUnless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.</string>
+
+    <string name="teit_error_text">This field is mandatory</string>
+    <string name="del_reminder_dialog_negative_button">Cancel</string>
+    <string name="ra_empty_state_title">No Reminders</string>
+    <string name="ra_empty_state_text">Add a reminder and it will appear here</string>
+    <string name="ra_copy_confirmation_text">Reminder title copied</string>
+    <string name="delete_reminder_dialog_title">Delete Reminder</string>
+    <string name="delete_reminder_dialog_message">This action cannot be undone</string>
+    <string name="delete_reminder_dialog_positive_button">Delete</string>
+    <string name="copy">Copy</string>
+    <string name="edit">Edit</string>
+
+    <string name="new_reminder">new Reminder</string>
+    <string name="reminder_set_c">Reminder Set</string>
+    <string name="channel_name">Reminder Notification</string>
+    <string name="channel_description">Reminders</string>
+    <string name="r_r_title">rRTitle</string>
+    <string name="notification_ctitle">Reminder</string>
+    <string name="title">Title</string>
+
+
+    <string name="help_activity_action_bar_title">Help</string>
+    <string name="send_feedback">Send Feedback</string>
+
+    <string name="update_app_informative_text">A new version is available</string>
+    <string name="update_app_button_text">UPDATE</string>
+    <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
+
+    <string name="eventbus_license">
+        Copyright © 2012-2016 Markus Junginger, greenrobot (http://greenrobot.org).\n\nLicensed under the Apache License, Version 2.0 (the "License");\n\nyou may not use this file except in compliance with the License.\n\nYou may obtain a copy of the License at\n\nhttp://www.apache.org/licenses/LICENSE-2.0\n\nUnless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+    </string>
+    <string name="add_reminder">Reminder</string>
+    <string name="details">Details</string>
+    <string name="date">Date</string>
+    <string name="time">Time</string>
+    <string name="repeat">Repeat</string>
+    <string name="repeat_off">Off</string>
+    <string name="repeat_no">Repetition Interval </string>
+    <string name="repeat_type">Type of Repetitions</string>
+
+    <string name="action_discard_reminder">Discard Reminder</string>
+    <string name="action_save_reminder">Save Reminder</string>
+    <string name="action_add_reminder">Add Reminder</string>
+
+    <string name="editor_activity_title_new_reminder">Add Reminder Details</string>
+    <string name="editor_activity_title_edit_reminder">Edit Reminder</string>
+    <string name="unsaved_changes_dialog_msg">Discard your changes and quit editing?</string>
+    <string name="discard">Discard</string>
+
+    <string name="keep_editing">Keep Editing</string>
+    <string name="delete_dialog_msg">Delete this Reminder?</string>
+
+    <string name="delete">Delete</string>
+
+    <string name="cancel">Cancel</string>
+    <string name="editor_delete_reminder_successful">Reminder deleted</string>
+
+    <string name="editor_delete_reminder_failed">Error with deleting reminder</string>
+
+    <string name="editor_insert_reminder_successful">Reminder saved</string>
+
+    <string name="editor_insert_reminder_failed">Error with saving reminder</string>
+
+    <string name="editor_update_reminder_successful">Reminder updated</string>
+
+    <string name="editor_update_reminder_failed">Error with updating reminder</string>
+
+    <string name="reminder_title">AlarmReminder</string>
+
+    <string name="title_medicine_name">Medicine Name</string>
+    <string name="hint_enter_med_name">Enter Medicine</string>
+    <string name="medicine_days">Medicine Days</string>
+    <string name="title_treatment_deadline">Treatment deadline</string>
+    <string name="title_continuous_use">Continuous use</string>
+    <string name="title_reminder">Reminder</string>
+    <string name="new_medicine">NEW MEDICINE</string>
+    <string name="every_day">Every day</string>
+    <string name="no_medicine_added">No Medicine Added</string>
+    <string name="loading_tasks_error">Error while loading medicineAlarms</string>
+    <string name="successfully_saved_me_message">Medicine Added Successfully</string>
+    <string name="successfully_deleted_message">Medicine deleted Successfully</string>
+    <string name="reminder_message">It\'s Time to take your medicine</string>
+    <string name="ignored">IGNORED</string>
+    <string name="taken">TAKEN</string>
+    <string name="all">ALL</string>
+    <string name="menu_filter">Filter</string>
+    <string name="all_label">All Medicines</string>
+    <string name="ignore_label">Medicines Ignored</string>
+    <string name="taken_label">Medicine Taken</string>
+    <string name="no_history">No History Found</string>
+    <string name="no_taken_med_history">You have not taken any medicine</string>
+    <string name="no_ignored_history">Well Done</string>
+    <string name="menu_stats">Monthly Report</string>
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

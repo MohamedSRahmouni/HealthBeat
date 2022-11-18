@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/backsign"
+    android:layout_height="match_parent"
+    tools:context=".imcactivite">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:id="@+id/imageview"
+        android:layout_above="@+id/contentlayout"
+        android:layout_marginBottom="30dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/ok">
+
+    </ImageView>
+
+    <RelativeLayout
+        android:id="@+id/contentlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:padding="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:text="55"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/mbmidisplay"
+        android:layout_centerVertical="true">
+
+    </TextView>
+
+
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gender"
+        android:layout_below="@+id/mbmidisplay"
+        android:layout_marginTop="15dp"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:id="@+id/genderdisplay">
+
+
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="YOUR IMC CATEGORY IS "
+        android:id="@+id/bmicategory"
+        android:layout_marginTop="15dp"
+
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_below="@+id/genderdisplay"
+        android:textSize="25sp"
+        android:textStyle="bold">
+
+    </TextView>
+
+
+    <Button
+        android:id="@+id/recalculateimc"
+        android:layout_width="371dp"
+        android:layout_height="45dp"
+        android:layout_below="@+id/bmicategory"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="84dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="147dp"
+        android:background="@drawable/buttonbackground"
+        android:text="RECALCULATE YOUR IMC"
+        android:textAlignment="center"
+        android:textColor="#B2FFFFFF"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
+
